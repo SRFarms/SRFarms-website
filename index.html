@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR Farms - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-rustic">
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <svg viewBox="0 0 24 24">
+                    <path d="M17,8C15.3,8 13.82,8.76 12.82,9.97C11.82,8.76 10.3,8 8.6,8C5.5,8 3,10.5 3,13.6C3,17.5 12,22 12,22C12,22 21,17.5 21,13.6C21,10.5 18.5,8 17,8M12,19.86C10.29,18.5 5,14.07 5,13.6C5,11.61 6.61,10 8.6,10C10.15,10 11.45,11 11.87,12.5H12.13C12.55,11 13.85,10 15.4,10C17.39,10 19,11.61 19,13.6C19,14.07 13.71,18.5 12,19.86Z"/>
+                </svg>
+                SR Farms
+            </a>
+            
+            <nav>
+                <div class="nav-links">
+                    <a href="index.html" class="active" data-key="nav-home">Home</a>
+                    <a href="mango.html" data-key="nav-mango">Mango</a>
+                    <a href="gallery.html" data-key="nav-gallery">Gallery</a>
+                    <a href="contact.html" data-key="nav-contact">Contact Us</a>
+                </div>
+
+                <!-- Language Toggle -->
+                <div class="lang-toggle">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ta">தமிழ்</button>
+                </div>
+
+                <!-- Mobile Hamburger Menu Button -->
+                <button class="hamburger" aria-label="Toggle Navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Body -->
+    <main>
+        <section class="hero-home">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <h1 data-key="hero-title">Organic Farm Operating Since <span>2021</span></h1>
+                        <p data-key="hero-subtitle">Welcome to SR Farms. We are an organic farm operating since 2021. We merge traditional homestead agriculture with chemical-free cultivation to harvest sweet, healthy mangoes and other organic crops.</p>
+                        <div class="hero-actions">
+                            <a href="mango.html" class="btn btn-primary" data-key="hero-cta-explore">Explore Mangoes</a>
+                            <a href="contact.html" class="btn btn-outline" data-key="hero-cta-contact">Contact Details</a>
+                        </div>
+                    </div>
+                    <div class="hero-image-wrap rustic-frame">
+                        <img src="pictures/Plantation.jpeg" alt="SR Farms Plantation View">
+                    </div>
+                </div>
+
+                <!-- Promos -->
+                <div class="intro-cards">
+                    <div class="intro-card">
+                        <div class="intro-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M17,8C15.3,8 13.82,8.76 12.82,9.97C11.82,8.76 10.3,8 8.6,8C5.5,8 3,10.5 3,13.6C3,17.5 12,22 12,22C12,22 21,17.5 21,13.6C21,10.5 18.5,8 17,8Z"/>
+                            </svg>
+                        </div>
+                        <h3 data-key="promo-organic-title">100% Chemical-Free</h3>
+                        <p data-key="promo-organic-desc">Grown naturally using bio-compost and zero synthetic pesticides, retaining rich nutrients and authentic taste.</p>
+                    </div>
+
+                    <div class="intro-card">
+                        <div class="intro-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M19,3H14.5C11.5,3 9,5.5 9,8.5V11H5V13H9V21H11V13H15C18,13 20.5,10.5 20.5,7.5V3H19M11,8.5C11,6.6 12.6,5 14.5,5H19V7.5C19,9.4 17.4,11 15.5,11H11V8.5Z"/>
+                            </svg>
+                        </div>
+                        <h3 data-key="promo-timeline-title">Earthy Cultivation</h3>
+                        <p data-key="promo-timeline-desc">From sapling care to natural straw ripening, we document every phase of our sustainable mango plantation.</p>
+                    </div>
+
+                    <div class="intro-card">
+                        <div class="intro-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z"/>
+                            </svg>
+                        </div>
+                        <h3 data-key="promo-direct-title">Direct Call Orders</h3>
+                        <p data-key="promo-direct-desc">No middlemen, no online carts. Browse our catalog and call us directly to schedule farm pick-ups or bulk orders.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="footer-logo">SR Farms</span>
+                    <p style="margin-top: 10px; max-width: 400px; font-size: 13px;" data-key="footer-desc">Growing organic mangoes, preserving native soil health, and supporting local farming communities in Saptur.</p>
+                </div>
+                <div class="footer-nav-col">
+                    <h4 style="color: var(--primary); font-family: var(--heading-font); margin-bottom: 12px;" data-key="footer-head-explore">Explore</h4>
+                    <div class="footer-nav">
+                        <a href="index.html" data-key="nav-home">Home</a>
+                        <a href="mango.html" data-key="nav-mango">Mango</a>
+                        <a href="gallery.html" data-key="nav-gallery">Gallery</a>
+                        <a href="contact.html" data-key="nav-contact">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Page Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
