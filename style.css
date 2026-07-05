@@ -529,6 +529,12 @@ nav {
     object-fit: cover;
 }
 
+.carousel-media.media-contain img,
+.carousel-media.media-contain video {
+    object-fit: contain;
+    background-color: #1A1A1A;
+}
+
 .carousel-body {
     padding: 30px;
 }
@@ -883,7 +889,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    align-items: start;
+    align-items: stretch;
 }
 
 @media (max-width: 900px) {
@@ -992,7 +998,8 @@ nav {
 }
 
 .map-wrapper {
-    height: 430px;
+    height: 100%;
+    min-height: 450px;
     border-radius: var(--radius);
     border: var(--border);
     overflow: hidden;
